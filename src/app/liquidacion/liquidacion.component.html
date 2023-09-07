@@ -1,4 +1,8 @@
+<br>
+<br>
 <form class="col-lg-6 offset-lg-2">
+  <div style="font-weight: bold; font-size: larger;">Liquidacion de impuesto vehicular</div>
+  <br>
     <div class="form-group">
       <label for="exampleInputEmail1">Placa</label>
       <input type="text"[(ngModel)]="placaPapa" name="placaPapa" class="form-control" id="" placeholder="Placa">
@@ -31,8 +35,12 @@
         ></app-calcular>
 
 </div>
-<p>Placa: {{placaPapa}}</p>
-<p>Ano: {{anoPapa}}</p>
-<p>Vr. a pagar: {{totalPapa}} </p>
+<div>
+  <div class="mx-auto" style="width: 720px;">
+    <p>Placa: {{placaPapa}}</p>
+    <p>Ano: {{anoPapa}}</p>
+    <p>Vr. a pagar: {{totalPapa}} </p>
+  </div>
+</div>
 
 
